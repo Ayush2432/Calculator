@@ -7,5 +7,15 @@
         <SolidColorBrush x:Key="numbersColor" Color="#444444"/>
         <SolidColorBrush x:Key="operatorsColor" Color="Orange"/>
         <SolidColorBrush x:Key="foregroundColor" Color="white"/>
+
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="{StaticResource foregroundColor}" />
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+        </Style>
+        
+        
     </Application.Resources>
 </Application>
